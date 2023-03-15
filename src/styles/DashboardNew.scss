@@ -1,0 +1,83 @@
+main.dashboard {
+    padding-left: 20px;
+    background-color: #E8E9F1;
+    display: flex;
+
+    .hero {
+        width: 62%;
+        background-color: #FFFFFF;
+
+        .banner {
+            margin-top: 130px;
+            height: 41px;
+            background-color: #373B5C;
+            color: #FFFFFF;
+            padding-left: 60px;
+            font-size: 24px;
+            font-weight: 300;
+            display: flex;
+            align-items: center;
+
+            span {
+                margin-left: 15px;
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
+
+        .first_section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 60px;
+
+            .card {
+                width: 190px;
+                height: 90.6px;
+                background-color: #F5F5F7;
+                border-radius: 15px;
+                padding: 20px 15px;
+
+                 p {
+                    font-size: 17px;
+                    font-weight: 300;
+                    color: #15182E;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: -2px;
+                 }
+
+                 span.amnt {
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: #272830;
+                    margin-left: 20px;
+                 }
+            }
+        }
+
+        .second_section {
+            padding: 0 60px;
+            margin-top: 30px;
+
+            .block {
+                margin-bottom: 40px;
+                p {
+                    font-size: 17px;
+                    font-weight: 600;
+                    color: #15182E;
+
+                    i {
+                        padding: 5px 8px;
+                        border-radius: 50%;
+                        background-color: #1E2875;
+                        color: #FFFFFF;
+                        font-style: normal;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}

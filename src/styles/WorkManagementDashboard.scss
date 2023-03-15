@@ -1,0 +1,39 @@
+main.work_management_dashboard {
+    padding-left: 20px;
+    background-color: #E8E9F1;
+    display: flex;
+
+    .hero {
+        width: 62%;
+        background-color: #FFFFFF;
+        display: flex;
+
+        .inner_navbar {
+            margin-top: 20px;
+            width: 168px;
+            height: 100%;
+            background-color: #373B5C;
+            display: block;
+            padding-top: 15px;
+            hr {
+                background: #fff;
+                opacity: 50%;
+                margin-top: 30px;
+            }
+
+            span {
+                padding-left: 20px;
+                display: block;
+                margin-top: 30px;
+                font-size: 12px;
+                font-weight: 400;
+                color: #FFFFFF;
+                text-align: left;
+            }
+
+            span.nav_header {
+                font-weight: 600;
+            }
+        }
+    }
+}

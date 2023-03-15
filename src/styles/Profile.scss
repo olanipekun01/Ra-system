@@ -1,0 +1,153 @@
+main.profile {
+    padding-left: 20px;
+    background-color: #E8E9F1;
+    display: flex;
+
+    
+
+    .hero {
+        width: 80%;
+        height: 900px;
+
+        .profile_detail {
+            background: url("../assets/backgrounImage.svg") center no-repeat;
+            height: 300px;
+            padding: 40px;
+            position: relative;
+            margin-top: -40px;
+            display: flex;
+
+            figure {
+                margin-top: 60px;
+                width: 210px;
+                position: relative;
+
+                .profile_image {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    border: 4px solid #fff;
+                }
+
+                .profileImageCameraIcon {
+                    position: absolute;
+                    bottom: 20px;
+                    right: 10px;
+                    padding: 10px;
+                    border-radius: 100%;
+                    background:  rgba(255, 255, 255, 0.8);
+
+                }
+            }
+
+            .hero_name_detail {
+                margin-top: 160px;
+                margin-left: -20px;
+
+                h2 {
+                    background: #00000080;
+                    color: #ffffff;
+                    padding: 15px 5px;
+                    border-radius: 6px;
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin-bottom: -2px;
+                }
+
+                span {
+                    color: #00000080;
+                    background: #ffffff;
+                    padding: 5px 2px;
+                    border-radius: 6px;
+                    font-size: 17px;
+                    font-weight: 400;
+                    margin-left: 8px;
+                }
+            }
+
+
+            .backgroundCameraIcon {
+                position: absolute;
+                bottom: 60px;
+                right: 30px;
+                padding: 10px;
+                border-radius: 100%;
+                background:  rgba(255, 255, 255, 0.8);
+            }
+
+        }
+
+        .profile_wrapper {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 20px;
+
+
+           
+
+            .profile_edit_field {
+                width: 672px;
+                background-color: #ffffff;
+                border-radius: 15px;
+                padding: 60px;
+
+                .input_div_wrapper {
+                    margin-bottom: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .input_div {
+                        display: block;
+
+                        span {
+                            display: block;
+                            font-size: 15px;
+                            font-weight: 400;
+                            margin-bottom: 10px;
+
+                            i {
+                                color: red;
+                                font-size: 17px;
+                            }
+                        }
+
+                        input {
+                            width: 270px;
+                            height: 56px;
+                            border: 0.5px solid rgba(0, 0, 0, 0.2);
+                            padding-left: 30px;
+                        }
+
+                        input.username_input {
+                            width: 180px;
+                        }
+                    }
+
+                    span.example {
+                        color: #15182E;                 
+                        font-style: italic;
+                        font-weight: 500;
+                        font-size: 26px;
+                        margin-bottom: -60px;
+                        margin-left: -120px;
+                        opacity: 0.8;
+                    }
+                }
+
+                button {
+                    color: #fff;
+                    background: #1E2875;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    height: 56px;
+                    width: 70%;
+                    text-align: center;
+                    margin: 50px 0px 0px 90px;
+                }
+            }
+        }
+    }
+}

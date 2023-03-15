@@ -1,0 +1,26 @@
+.nav_sidebar {
+    width: 232px;
+    height: 352px;
+    background-color: #ffffff;
+    border-radius: 15px;
+
+    ul {
+        list-style: none;
+            
+        padding: 5px 0 5px 0px;
+
+        li {
+            font-weight: 500;
+            font-size: 24px; 
+            color: rgba(0, 0, 0, 0.5); 
+            margin-bottom: 10px; 
+            padding: 13px 15px;     
+        }
+
+        li.active {
+            color: #1E2875;
+            border-right: 4px solid #1E2875;
+            background: #E8E9F1;
+        }
+    }
+}

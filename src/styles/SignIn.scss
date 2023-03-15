@@ -1,0 +1,118 @@
+
+
+main {
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .left_content {
+        width: 550px;
+        height: 688px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .right_content {
+        width: 600px;
+        height: 688px;
+
+        .header_wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 250px;
+
+            h1 {
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 600px;
+                color: #15182E;
+                line-height: 8.96px;
+                letter-spacing: 0.25px;
+            }
+        }
+
+        h4 {
+            color: #15182E;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 34px;
+            line-height: 5px;
+            letter-spacing: 0.25px;
+            margin-top: 10px;
+        }
+
+        form {
+            
+            h6 {
+                color: #15182E;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                margin-bottom: 30px;
+            }
+
+            .input_box {
+                position: relative;
+                margin-bottom: 30px;
+                input {
+                    width: 100%;
+                    height: 70px;
+                    outline: none;
+                    border: 1px solid #15182E;
+                    border-radius: 10px;
+                    font-size: 1em;
+                    padding-left: 15px;
+                }
+
+    
+                span.input_label {
+                    position: absolute;
+                    left: 15px;
+                    top: -10px;
+                    pointer-events: none;
+                    font-size: 1em;
+                    color: #15182E;
+                    text-transform: uppercase;
+                    background: #ffff;
+                    padding: 0 4px;
+                    
+                }
+            }
+
+            button {
+                color: #1C1B1F;
+                background: rgba(28, 27, 31, 0.12);
+                border: none;
+                border-radius: 10px;
+                font-size: 14px;
+                font-weight: 500;
+                height: 60px;
+                width: 103%;
+            }
+
+            span.other_links {
+                color: #15182E;
+                display: block;
+                margin-top: 40px;
+                font-size: 18px;
+                font-weight: 500;
+
+                span {
+                    color: #1E2875;
+                }
+            }
+
+            
+
+
+        }
+    }
+}

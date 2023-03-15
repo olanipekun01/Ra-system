@@ -1,0 +1,109 @@
+main {
+    padding: 100px 50px;
+
+    section {
+        background-color: #ffff;
+        width: 670px;
+        height: 670px;
+        margin: auto;
+        text-align: center;
+
+        .header_wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 250px;
+            margin: auto;
+
+            h1 {
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 600px;
+                color: #1E2875;
+                line-height: 8.96px;
+                letter-spacing: 0.25px;
+            }
+        }
+
+        h4 {
+            color: #15182E;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 34px;
+            margin-top: 30px;
+        }
+
+        h6 {
+            color: #15182E;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            margin-top: 50px;
+            text-align: left;
+        }
+        .otp_div_wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            width: 100%;
+            .otp_box {
+                display: flex;
+                justify-content: space-between;
+                width: 350px;
+    
+                input {
+                    width: 20px;
+                    font-size: 26px;
+                    padding: 10px;
+                    text-align: center;
+                    border: none;
+                    border-bottom: 2px solid #15182E;
+                    outline: none;
+                    transition: all 0.1s;
+                }
+            }
+
+            span {
+                color: #15182E;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 18px;
+                margin-bottom: -6px;
+            }
+        }
+
+        button {
+            color: #1C1B1F;;
+            background: rgba(28, 27, 31, 0.12);
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            height: 60px;
+            width: 103%;
+            margin-top: 20px;
+            margin-left: -10px;
+        }
+
+        span.other_links {
+            color: #15182E;
+            display: block;
+            margin-top: 40px;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: left;
+        }
+        
+
+
+
+
+    }
+}
+
+.disabled {
+    opacity: 0.5;
+}
