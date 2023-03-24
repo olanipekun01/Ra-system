@@ -1,10 +1,23 @@
 header {
     background: rgba(28, 27, 31, 0.12);
-    margin-top: 40px;
-    padding: 10px 50px;
+    margin-top: 20px;
+    padding: 10px 70px;
 
     .header_logo {
         width: 25px;
         height: 22px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    header {
+        background: rgba(28, 27, 31, 0.12);
+        margin-top: 40px;
+        padding: 10px 50px;
+
+        .header_logo {
+            width: 25px;
+            height: 22px;
+        }
     }
 }

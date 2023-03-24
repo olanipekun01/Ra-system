@@ -1,4 +1,4 @@
-main {
+main.SignUp {
     padding: 100px 50px;
     
     section {
@@ -146,13 +146,18 @@ main {
     }
 }
 
-.blur_background_wrapper {
-    position: absolute;
-    background: rgba(30, 40, 117, 0.5);;
-    left: 0;
-    top: 0;
-    height: 200%;
-    width: 100%;
-    z-index: 222;
+// .blur_background_wrapper {
+//     position: absolute;
+//     background: rgba(30, 40, 117, 0.5);;
+//     left: 0;
+//     top: 0;
+//     height: 200%;
+//     width: 100%;
+//     z-index: 222;
     
+// }
+
+
+@media only screen and (min-width: 1400px) {
+
 }

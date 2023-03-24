@@ -1,7 +1,7 @@
 
 
-main {
-    padding: 100px 50px;
+main.SignIn {
+    padding: 40px 90px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,8 +9,7 @@ main {
     justify-content: space-between;
 
     .left_content {
-        width: 550px;
-        height: 688px;
+        height: 538px;
 
         img {
             width: 100%;
@@ -19,8 +18,8 @@ main {
     }
 
     .right_content {
-        width: 600px;
-        height: 688px;
+        width: 550px;
+        // height: 688px;
 
         .header_wrapper {
             display: flex;
@@ -30,7 +29,7 @@ main {
             width: 250px;
 
             h1 {
-                font-size: 50px;
+                font-size: 46px;
                 font-style: normal;
                 font-weight: 600px;
                 color: #15182E;
@@ -61,10 +60,10 @@ main {
 
             .input_box {
                 position: relative;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
                 input {
                     width: 100%;
-                    height: 70px;
+                    height: 50px;
                     outline: none;
                     border: 1px solid #15182E;
                     border-radius: 10px;
@@ -88,20 +87,20 @@ main {
             }
 
             button {
-                color: #1C1B1F;
-                background: rgba(28, 27, 31, 0.12);
+                color: rgba(255, 255, 255, 0.5);
+                background: #AAAAAA;;
                 border: none;
                 border-radius: 10px;
                 font-size: 14px;
-                font-weight: 500;
-                height: 60px;
+                font-weight: 900;
+                height: 50px;
                 width: 103%;
             }
 
             span.other_links {
                 color: #15182E;
                 display: block;
-                margin-top: 40px;
+                margin-top: 20px;
                 font-size: 18px;
                 font-weight: 500;
 
@@ -114,5 +113,464 @@ main {
 
 
         }
+    }
+}
+
+section.SignUp_section {
+    visibility: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 999;
+    padding: 100px 150px 0 0;
+    div.SignUp_section_wrapper {  
+        padding-left: 80px;
+        z-index: 999;
+        background-color: #ffff;
+        width: 970px;
+        height: 570px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 30px;
+        margin: auto;
+
+        .left_content {
+            width: 70%;
+            height: 100%;
+            padding-top: 30px;
+
+            .header_wrapper {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 250px;
+
+                h1 {
+                    font-size: 46px;
+                    font-style: normal;
+                    font-weight: 600px;
+                    color: #1E2875;
+                    line-height: 8.96px;
+                    letter-spacing: 0.25px;
+                }
+            }
+
+            h4 {
+                color: #15182E;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 34px;
+                line-height: 5px;
+                letter-spacing: 0.25px;
+                margin-top: 10px;
+            }
+
+            form {
+                width: 80%;
+
+                h6 {
+                    color: #15182E;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    margin-bottom: 0px;
+                }
+
+                span.enter_email_text {
+                    color: #15182E;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    margin-bottom: 0px;
+                }
+
+                .input_box {
+                    margin-top: 20px;
+                    position: relative;
+                    margin-bottom: 30px;
+
+                    input {
+                        width: 100%;
+                        height: 50px;
+                        outline: none;
+                        border: 1px solid #15182E;
+                        border-radius: 10px;
+                        font-size: 1em;
+                        padding-left: 15px;
+                    }
+
+
+                    span.input_label {
+                        position: absolute;
+                        left: 15px;
+                        top: -10px;
+                        pointer-events: none;
+                        font-size: 1em;
+                        color: #15182E;
+                        text-transform: uppercase;
+                        background: #ffff;
+                        padding: 0 4px;
+                    }
+                }
+
+                button {
+                    color: rgba(255, 255, 255, 0.5);
+                    background: #AAAAAA;
+                    font-weight: 600;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    height: 50px;
+                    width: 103%;
+                }
+
+                .google_auth_button {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid #1E2875;
+                    background-color: #fff;
+                    color: #1E2875;
+                    img {
+                        width: 24px;
+                        height: 21px;
+                        margin-right: 20px;
+                    }
+                }
+
+                .or_text {
+                    color: #15182E;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin: 20px auto;
+                    text-align: center;
+                }
+
+                span.other_links {
+                    color: #15182E;
+                    display: block;
+                    margin-top: 40px;
+                    font-size: 18px;
+                    font-weight: 500;
+
+                    span {
+                        color: #1E2875;
+                    }
+                }
+            }
+        }
+
+        .right_content {
+            width: 30%;
+            height: 100%;
+            background-color: #1E2875;
+            border-radius: 0px 30px 30px 0px;
+        }
+    }
+}
+
+
+
+.blur_background_wrapper {
+    visibility: hidden;
+    position: absolute;
+    background: rgba(30, 40, 117, 0.5);
+    ;
+    left: 0;
+    top: 0;
+    height: 200%;
+    width: 100%;
+    z-index: 222;
+
+}
+
+@media only screen and (min-width: 1400px) {
+    main.SignIn {
+        padding: 100px 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        .left_content {
+            height: 688px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .right_content {
+            width: 600px;
+            height: 688px;
+
+            .header_wrapper {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 250px;
+
+                h1 {
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 600px;
+                    color: #15182E;
+                    line-height: 8.96px;
+                    letter-spacing: 0.25px;
+                }
+            }
+
+            h4 {
+                color: #15182E;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 34px;
+                line-height: 5px;
+                letter-spacing: 0.25px;
+                margin-top: 10px;
+            }
+
+            form {
+
+                h6 {
+                    color: #15182E;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    margin-bottom: 30px;
+                }
+
+                .input_box {
+                    position: relative;
+                    margin-bottom: 30px;
+
+                    input {
+                        width: 100%;
+                        height: 70px;
+                        outline: none;
+                        border: 1px solid #15182E;
+                        border-radius: 10px;
+                        font-size: 1em;
+                        padding-left: 15px;
+                    }
+
+
+                    span.input_label {
+                        position: absolute;
+                        left: 15px;
+                        top: -10px;
+                        pointer-events: none;
+                        font-size: 1em;
+                        color: #15182E;
+                        text-transform: uppercase;
+                        background: #ffff;
+                        padding: 0 4px;
+
+                    }
+                }
+
+                button {
+                    color: #1C1B1F;
+                    background: rgba(28, 27, 31, 0.12);
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    height: 60px;
+                    width: 103%;
+                }
+
+                span.other_links {
+                    color: #15182E;
+                    display: block;
+                    margin-top: 40px;
+                    font-size: 18px;
+                    font-weight: 500;
+
+                    span {
+                        color: #1E2875;
+                    }
+                }
+
+
+
+
+            }
+        }
+    }
+
+    section.SignUp_section {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        z-index: 999;
+        padding: 100px 50px;
+    
+        div.SignUp_section_wrapper {
+            padding-left: 100px;
+            z-index: 999;
+            background-color: #ffff;
+            width: 1170px;
+            height: 670px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 30px;
+            margin: auto;
+
+            .left_content {
+                width: 70%;
+                height: 100%;
+
+                .header_wrapper {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 250px;
+
+                    h1 {
+                        font-size: 50px;
+                        font-style: normal;
+                        font-weight: 600px;
+                        color: #1E2875;
+                        line-height: 8.96px;
+                        letter-spacing: 0.25px;
+                    }
+                }
+
+                h4 {
+                    color: #15182E;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 34px;
+                    line-height: 5px;
+                    letter-spacing: 0.25px;
+                    margin-top: 10px;
+                }
+
+                form {
+                    width: 80%;
+
+                    h6 {
+                        color: #15182E;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        margin-bottom: 0px;
+                    }
+
+                    span.enter_email_text {
+                        color: #15182E;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        margin-bottom: 0px;
+                    }
+
+                    .input_box {
+                        margin-top: 20px;
+                        position: relative;
+                        margin-bottom: 30px;
+
+                        input {
+                            width: 100%;
+                            height: 70px;
+                            outline: none;
+                            border: 1px solid #15182E;
+                            border-radius: 10px;
+                            font-size: 1em;
+                            padding-left: 15px;
+                        }
+
+
+                        span.input_label {
+                            position: absolute;
+                            left: 15px;
+                            top: -10px;
+                            pointer-events: none;
+                            font-size: 1em;
+                            color: #15182E;
+                            text-transform: uppercase;
+                            background: #ffff;
+                            padding: 0 4px;
+                        }
+                    }
+
+                    button {
+                        color: #1C1B1F;
+                        background: rgba(28, 27, 31, 0.12);
+                        border: none;
+                        border-radius: 10px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        height: 60px;
+                        width: 103%;
+                    }
+
+                    .google_auth_button {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            width: 24px;
+                            height: 21px;
+                        }
+                    }
+
+                    .or_text {
+                        color: #15182E;
+                        font-size: 18px;
+                        font-weight: 500;
+                        margin: 20px auto;
+                        text-align: center;
+                    }
+
+                    span.other_links {
+                        color: #15182E;
+                        display: block;
+                        margin-top: 40px;
+                        font-size: 18px;
+                        font-weight: 500;
+
+                        span {
+                            color: #1E2875;
+                        }
+                    }
+                }
+            }
+
+            .right_content {
+                width: 30%;
+                height: 100%;
+                background-color: #1E2875;
+                border-radius: 0px 30px 30px 0px;
+            }
+        }
+    }
+
+    
+    
+    .blur_background_wrapper {
+        position: absolute;
+        background: rgba(30, 40, 117, 0.5);
+        ;
+        left: 0;
+        top: 0;
+        height: 200%;
+        width: 100%;
+        z-index: 222;
+
     }
 }

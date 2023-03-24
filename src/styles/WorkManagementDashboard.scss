@@ -10,7 +10,8 @@ main.work_management_dashboard {
 
         .inner_navbar {
             margin-top: 20px;
-            width: 168px;
+            position: relative;
+            width: 19%;
             height: 100%;
             background-color: #373B5C;
             display: block;
@@ -33,6 +34,115 @@ main.work_management_dashboard {
 
             span.nav_header {
                 font-weight: 600;
+            }
+
+
+            .close_navbar_icon {
+                position: absolute;
+                top: 14px;
+                right: -10px;
+                padding: 7px;
+                border-radius: 100%;
+                background: rgba(255, 255, 255, 0.8);
+                border: 0.5px solid #373B5C;
+            }
+        }
+
+        .main_content {
+            width: 81%;
+            padding: 120px 30px 0px 0;
+
+            .main_content_header {
+                padding-left: 30px;
+                font-size: 18px;
+                font-weight: 400;
+                color: #1E2875;
+                margin-bottom: -5px;
+            }
+
+            hr {
+                width: 100%;
+            }
+
+            .filter_section {
+                float: right;
+                margin-top: 15px;
+                display: flex;
+                text-align: center;
+
+                span {
+                    color: #373B5C;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                img {
+                    margin-left: 20px;
+                }
+
+                img.filter {
+                    margin-left: 10px;
+                }
+            }
+
+            .dept_section {
+                padding-left: 30px;
+                clear: both;
+                margin-bottom: 80px;
+                h3 {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #1E2875;
+                }
+
+                table {
+                    width: 100%;
+                    tr {
+                        width: 100%;
+                        border-radius: 25px;
+                        background-color: #C3C4CE;
+                        padding-right: 60px;
+                        margin-bottom: 20px;
+                        border-color: black;
+                        
+                        th {
+                            padding: 5px 10px;
+                            width: 120px;
+                            height: 40px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #15182E;
+                            text-align: left;
+                        }
+
+                        th.icon {
+                            width: 30px;
+                            font-size: 20px;
+                        }
+
+                        td.icon {
+                            width: 30px;
+                            font-size: 20px;
+                        }
+
+                        td {
+                            padding: 5px 10px;
+                            width: 120px;
+                            height: 40px;
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: #15182E;
+                            text-align: left;
+                        }
+
+                        td.icon {
+                            width: 30px;
+                        }
+                    }
+
+                    tr.cells {
+                        background-color: #F4F4F8;;
+                    }
+                }
             }
         }
     }

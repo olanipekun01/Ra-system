@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import AuthHeader from '../layout/AuthHeader';
 import '../styles/SignUp.scss';
 
-import logo from '../assets/Vector.svg';
+import logo from '../assets/Vector-i.svg';
 import google from '../assets/google-svgrepo-com 1.svg';
 
 class SignUp extends Component {
@@ -10,8 +10,8 @@ class SignUp extends Component {
     return (
       <React.Fragment>
        <AuthHeader />
-        <main>
-            <section>
+        <main className='SignUp'>
+            <section className='SignUp_section'>
                 <div className="left_content">
                     <div className="header_wrapper">
                         <img src={logo} className="header_logo" alt="logo" />
