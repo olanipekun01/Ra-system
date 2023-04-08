@@ -14,7 +14,7 @@ export default class ProfileAdministration extends Component {
   render() {
     return (
       <React.Fragment>
-        <main className='profile_administration'>
+        <main className='profile_administration_organization_detail'>
             <ProfileSideDashboard />
             <section className="hero">
                     <div className="profile_detail">
@@ -42,7 +42,7 @@ export default class ProfileAdministration extends Component {
                         <div className="profile_edit_field">
                             <div className="header_links">
                                 <span className='active'>Organisation details</span>
-                                <span>Employee management</span>
+                                <span>Invite Members</span>
                                 <span>Export data  account</span>
                             </div>
                             <div className="input_div_wrapper">
@@ -66,7 +66,10 @@ export default class ProfileAdministration extends Component {
                                 You can only change the url once in 60 days
                             </span>
 
-                            <button>Save Changes</button>
+                            <div className="button_container">
+                                <button className='save'>Save Changes</button>
+                                <button className='cancel'>Cancel</button>
+                            </div>
                         </div>
                     </div>
             </section>

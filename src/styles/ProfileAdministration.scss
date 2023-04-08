@@ -1,15 +1,15 @@
-main.profile_administration {
-    padding-left: 20px;
+main.profile_administration_organization_detail {
+    // padding-left: 20px;
     background-color: #E8E9F1;
     display: flex;
 
     .hero {
-        width: 80%;
-        height: 900px;
+        width: 90%;
+        // height: 900px;
 
         .profile_detail {
             background: url("../assets/Profile_adminstration_background.svg") center no-repeat;
-            height: 300px;
+            height: 160px;
             padding: 40px;
             position: relative;
             margin-top: -40px;
@@ -21,14 +21,14 @@ main.profile_administration {
                 margin: auto;
                 figure {
                     margin: auto;
-                    margin-top: 180px;
-                    padding-left: 180px;
+                    margin-top: 120px;
+                    padding-left: 240px;
                     width: 210px;
                     position: relative;
     
                     .profile_image {
-                        width: 200px;
-                        height: 200px;
+                        width: 140px;
+                        height: 140px;
                         border-radius: 50%;
                         border: 4px solid #fff;
                     }
@@ -36,7 +36,7 @@ main.profile_administration {
                     .profileImageCameraIcon {
                         position: absolute;
                         bottom: 20px;
-                        right: 10px;
+                        right: 0px;
                         padding: 10px;
                         border-radius: 100%;
                         background:  rgba(255, 255, 255, 0.8);
@@ -45,15 +45,19 @@ main.profile_administration {
                 }
     
                 .hero_name_detail {
-                    margin-top: 260px;
+                    margin-top: 210px;
+                    margin-right: 50px;
     
                     h2 {
                         color: #1E2875;
                         padding: 5px 5px;
                         border-radius: 6px;
-                        font-size: 24px;
+                        font-size: 20px;
                         font-weight: 600;
                         margin-bottom: -2px;
+                        margin-left: 7px;
+                        margin-top: 5px;
+                        width: 150px;
                     }
     
                     span {
@@ -61,9 +65,9 @@ main.profile_administration {
                         background: #FFBB0D;;
                         padding: 5px 2px;
                         border-radius: 6px;
-                        font-size: 17px;
+                        font-size: 15px;
                         font-weight: 400;
-                        margin-left: 8px;
+                        margin-left: 13px;
                     }
                 }
             }
@@ -80,7 +84,7 @@ main.profile_administration {
         .profile_wrapper {
             display: flex;
             justify-content: space-between;
-            padding: 60px 20px;
+            padding: 80px 20px;
 
 
            
@@ -89,7 +93,7 @@ main.profile_administration {
                 width: 672px;
                 background-color: #ffffff;
                 border-radius: 15px;
-                padding: 60px;
+                padding: 20px 60px 20px 60px;
 
                 .header_links {
                     margin-bottom: 40px;
@@ -100,7 +104,7 @@ main.profile_administration {
                         font-size: 16px;
                         opacity: 0.3;
                         padding-bottom: 7px;
-                        padding-right: 30px;
+                        padding-right: 70px;
                         border-bottom: 2px solid rgba(0, 0, 0, 0.3);
                     } 
 
@@ -132,8 +136,9 @@ main.profile_administration {
 
                         input {
                             width: 270px;
-                            height: 56px;
+                            height: 36px;
                             border: 0.5px solid rgba(0, 0, 0, 0.2);
+                            border-radius: 5px;
                             padding-left: 30px;
                         }
                     }
@@ -142,8 +147,8 @@ main.profile_administration {
                         color: #15182E;                 
                         font-style: italic;
                         font-weight: 500;
-                        font-size: 26px;
-                        margin-bottom: -60px;
+                        font-size: 22px;
+                        margin-bottom: -40px;
                         margin-left: 09px;
                         opacity: 0.8;
                     }
@@ -163,17 +168,217 @@ main.profile_administration {
                     }
                 }
 
-                button {
-                    color: #fff;
-                    background: #1E2875;
-                    border: none;
-                    border-radius: 10px;
-                    font-size: 14px;
-                    font-weight: 500;
-                    height: 56px;
-                    width: 70%;
-                    text-align: center;
-                    margin: 50px 0px 0px 90px;
+                .button_container {
+                        button {
+                            color: #fff;
+                            background: #1E2875;
+                            border: none;
+                            border-radius: 10px;
+                            font-size: 20px;
+                            font-weight: 500;
+                            height: 56px;
+                            width: 220px;
+                            text-align: center;
+                            margin: 50px 0px 0px 90px;
+                        }
+
+                        button.cancel {
+                            color: #1E2875;
+                            background-color: #fff;
+                            border: 1px solid #1E2875;
+                        }
+                   }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    main.profile_administration {
+        padding-left: 20px;
+        background-color: #E8E9F1;
+        display: flex;
+
+        .hero {
+            width: 80%;
+            height: 900px;
+
+            .profile_detail {
+                background: url("../assets/Profile_adminstration_background.svg") center no-repeat;
+                height: 300px;
+                padding: 40px;
+                position: relative;
+                margin-top: -40px;
+
+                .profile_detail_wrapper {
+                    width: 580px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: auto;
+                    figure {
+                        margin: auto;
+                        margin-top: 180px;
+                        padding-left: 180px;
+                        width: 210px;
+                        position: relative;
+        
+                        .profile_image {
+                            width: 200px;
+                            height: 200px;
+                            border-radius: 50%;
+                            border: 4px solid #fff;
+                        }
+        
+                        .profileImageCameraIcon {
+                            position: absolute;
+                            bottom: 20px;
+                            right: 10px;
+                            padding: 10px;
+                            border-radius: 100%;
+                            background:  rgba(255, 255, 255, 0.8);
+        
+                        }
+                    }
+        
+                    .hero_name_detail {
+                        margin-top: 260px;
+        
+                        h2 {
+                            color: #1E2875;
+                            padding: 5px 5px;
+                            border-radius: 6px;
+                            font-size: 24px;
+                            font-weight: 600;
+                            margin-bottom: -2px;
+                        }
+        
+                        span {
+                            color: #00000080;
+                            background: #FFBB0D;;
+                            padding: 5px 2px;
+                            border-radius: 6px;
+                            font-size: 17px;
+                            font-weight: 400;
+                            margin-left: 8px;
+                        }
+                    }
+                }
+
+
+                .backgroundThreeDotIcon {
+                    position: absolute;
+                    top: 60px;
+                    right: 30px;
+                }
+
+            }
+
+            .profile_wrapper {
+                display: flex;
+                justify-content: space-between;
+                padding: 60px 20px;
+
+
+            
+
+                .profile_edit_field {
+                    width: 672px;
+                    background-color: #ffffff;
+                    border-radius: 15px;
+                    padding: 60px;
+
+                    .header_links {
+                        margin-bottom: 40px;
+
+                        span {
+                            color: #15182E;
+                            font-weight: 400;
+                            font-size: 16px;
+                            opacity: 0.3;
+                            padding-bottom: 7px;
+                            padding-right: 30px;
+                            border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+                        } 
+
+                        span.active {
+                            opacity: 5;
+                            border-bottom: 2px solid rgba(0, 0, 0, 5);
+                        }
+                    }
+
+                    .input_div_wrapper {
+                        margin-bottom: 50px;
+                        display: flex;
+                        align-items: center;
+
+                        .input_div {
+                            display: block;
+
+                            span {
+                                display: block;
+                                font-size: 15px;
+                                font-weight: 400;
+                                margin-bottom: 10px;
+
+                                i {
+                                    color: red;
+                                    font-size: 17px;
+                                }
+                            }
+
+                            input {
+                                width: 270px;
+                                height: 56px;
+                                border: 0.5px solid rgba(0, 0, 0, 0.2);
+                                padding-left: 30px;
+                            }
+                        }
+
+                        span.example {
+                            color: #15182E;                 
+                            font-style: italic;
+                            font-weight: 500;
+                            font-size: 26px;
+                            margin-bottom: -60px;
+                            margin-left: 09px;
+                            opacity: 0.8;
+                        }
+                    }
+
+                    span.warning {
+                        display: flex;
+                        align-items: center;
+                        background: rgba(30, 40, 118, 0.2);
+                        padding: 10px 0;
+                        width: 307px;
+                        margin-top: -49px;
+                        font-weight: 500;
+                        font-size: 16px;
+                        img {
+                            margin-right: 8px;
+                        }
+                    }
+
+                    .button_container {
+                            button {
+                                color: #fff;
+                                background: #1E2875;
+                                border: none;
+                                border-radius: 10px;
+                                font-size: 20px;
+                                font-weight: 500;
+                                height: 56px;
+                                width: 220px;
+                                text-align: center;
+                                margin: 50px 0px 0px 90px;
+                            }
+
+                            button.cancel {
+                                color: #1E2875;
+                                background-color: #fff;
+                                border: 1px solid #1E2875;
+                            }
+                    }
                 }
             }
         }

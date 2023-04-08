@@ -7,26 +7,32 @@ import "../styles/Profile.scss";
 
 import profileImage from '../assets/profileImage.svg';
 import cameraIcon from '../assets/Camera.svg';
+import ThreeDotIcon from '../assets/threedots.svg';
 
 class Profile extends Component {
   render() {
     return (
       <React.Fragment>
-        <main className='profile'>
+        <main className='profile-account'>
             <ProfileSideDashboard />
             <section className="hero">
                     <div className="profile_detail">
-                        <figure>
-                            <img src={profileImage} alt="" className="profile_image" />
-                            <img src={cameraIcon} className='profileImageCameraIcon' alt="" />
-                        </figure>
 
-                        <div className="hero_name_detail">
-                            <h2>Drennan Kaka</h2>
-                            <span>Admin</span>
+                        <div className="profile_detail_wrapper">
+                            <figure>
+                                <img src={profileImage} alt="" className="profile_image" />
+                                <img src={cameraIcon} className='profileImageCameraIcon' alt="" />
+                            </figure>
+
+                            <div className="hero_name_detail">
+                                <span>Admin</span>
+                                <h2>Drennan Kaka</h2>
+                                
+                            </div>
                         </div>
+                        
 
-                        <img src={cameraIcon} className="backgroundCameraIcon" alt="" />
+                        <img src={ThreeDotIcon} className="backgroundThreeDotIcon" alt="" />
                     </div>
 
                     <div className="profile_wrapper">
@@ -65,11 +71,21 @@ class Profile extends Component {
 
                                 <div className="input_div">
                                     <span>Phone No.<i>*</i></span>
-                                    <input type="text" placeholder='Last name' />
+                                    <input type="text" placeholder='83 563 888 320' />
                                 </div>
                             </div>
 
-                            <button>Save Changes</button>
+                            <div className="input_div_wrapper">
+                                <div className="input_div">
+                                    <span>Bio<i>*</i><span>(Write a short introduction about yourself)</span></span>
+                                    <textarea name="" id="" cols="30" rows="4"></textarea>
+                                </div>
+                            </div>
+
+                            <div className="button_container">
+                                <button className='save'>Save Changes</button>
+                                <button className='cancel'>Cancel</button>
+                            </div>
                         </div>
                     </div>
             </section>

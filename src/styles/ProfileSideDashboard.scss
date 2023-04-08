@@ -65,20 +65,25 @@
 
         img {
             margin: auto;
+            width: 180px;
         }
     }
 
     .logout_div {
-        margin-top: 40px;
+        margin-top: 70px;
         margin-bottom:80px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 200px;
+        width: 145px;
 
         span {
             font-size: 17px;
             color: #373B5C;;
+        }
+
+        img {
+            width: 20px;
         }
     }
 
@@ -156,11 +161,12 @@
 
             img {
                 margin: auto;
+                width: 250px;
             }
         }
 
         .logout_div {
-            margin-top: 40px;
+            margin-top: 70px;
             margin-bottom:80px;
             display: flex;
             justify-content: space-between;

@@ -1,0 +1,223 @@
+main.profile_administration_invite_members {
+    background-color: #E8E9F1;
+    display: flex;  
+
+    .hero {
+        width: 90%;
+
+         .profile_detail {
+            background: url("../assets/Profile_adminstration_background.svg") center no-repeat;
+            height: 160px;
+            padding: 40px;
+            position: relative;
+            margin-top: -40px;
+
+            .profile_detail_wrapper {
+                width: 580px;
+                display: flex;
+                justify-content: space-between;
+                margin: auto;
+                figure {
+                    margin: auto;
+                    margin-top: 120px;
+                    padding-left: 240px;
+                    width: 210px;
+                    position: relative;
+    
+                    .profile_image {
+                        width: 140px;
+                        height: 140px;
+                        border-radius: 50%;
+                        border: 4px solid #fff;
+                    }
+    
+                    .profileImageCameraIcon {
+                        position: absolute;
+                        bottom: 20px;
+                        right: 0px;
+                        padding: 10px;
+                        border-radius: 100%;
+                        background:  rgba(255, 255, 255, 0.8);
+    
+                    }
+                }
+    
+                .hero_name_detail {
+                    margin-top: 210px;
+                    margin-right: 50px;
+    
+                    h2 {
+                        color: #1E2875;
+                        padding: 5px 5px;
+                        border-radius: 6px;
+                        font-size: 20px;
+                        font-weight: 600;
+                        margin-bottom: -2px;
+                        margin-left: 7px;
+                        margin-top: 5px;
+                        width: 150px;
+                    }
+    
+                    span {
+                        color: #00000080;
+                        background: #FFBB0D;;
+                        padding: 5px 2px;
+                        border-radius: 6px;
+                        font-size: 15px;
+                        font-weight: 400;
+                        margin-left: 13px;
+                    }
+                }
+            }
+
+
+            .backgroundThreeDotIcon {
+                position: absolute;
+                top: 60px;
+                right: 30px;
+            }
+
+        }
+
+        .profile_wrapper {
+            display: flex;
+            justify-content: space-between;
+            padding: 80px 20px;
+
+            .profile_edit_field {
+                width: 672px;
+                background-color: #ffffff;
+                border-radius: 15px;
+                padding: 20px 60px 20px 60px;
+
+                .header_links {
+                    margin-bottom: 20px;
+
+                    span {
+                        color: #15182E;
+                        font-weight: 400;
+                        font-size: 16px;
+                        opacity: 0.3;
+                        padding-bottom: 7px;
+                        padding-right: 70px;
+                        border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+                    } 
+
+                    span.active {
+                        opacity: 5;
+                        border-bottom: 2px solid rgba(0, 0, 0, 5);
+                    }
+                }
+
+                .add_member_button {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    button {
+                        color: #1E2875;
+                        background-color: #ffffff;
+                        border: 1px solid #1E2875;
+                        border-radius: 7px;
+                        padding: 10px 10px;
+
+                    }
+                }
+
+                table {
+                    border-collapse: collapse;
+                    margin: 15px 0;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #768389;
+                    min-width: 100%;
+                    background-color: #ffff;
+                    // box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+                    thead {
+                    
+                        background: #ffffff;
+                
+                        tr {
+                            text-align: left;
+                
+                
+                
+                            th {
+                                padding: 12px 15px;
+                                font-size: 18px;
+                
+                                // img {
+                                //     width: 12px;
+                                //     margin-left: 6px;
+                                //     margin-bottom: -1px;
+                                // }
+                            }
+                        }
+                    }
+
+                    tbody {
+                        background-color: #ffffff;
+                        tr {
+
+                            td {
+                                padding: 12px 15px;
+                                font-size: 15px;
+                                font-weight: 400;
+                                color: #15182E;
+                                
+                            }
+                            td.invitee_profile {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                img {
+                                    border-radius: 50%;
+                                    margin-right: 12px;
+                                }
+
+                                p {
+                                    color: #15182E;
+                                }
+
+                                span {
+                                    color: #768389;
+                                }
+                            }
+
+                            td.status_active {
+                                color: #0E8B51;
+                            }
+
+                            td.status_offline {
+                                color: #DF0B00;
+                            }
+                        }
+                    }
+                }
+
+
+                .button_container {
+                    button {
+                        color: #fff;
+                        background: #1E2875;
+                        border: none;
+                        border-radius: 10px;
+                        font-size: 20px;
+                        font-weight: 500;
+                        height: 56px;
+                        width: 220px;
+                        text-align: center;
+                        margin: 50px 0px 0px 90px;
+                    }
+
+                    button.cancel {
+                        color: #1E2875;
+                        background-color: #fff;
+                        border: 1px solid #1E2875;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
