@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
 import SignUpOTPPage from './pages/SignUpOTPPage';
 import AccountSetUpIntro from './pages/AccountSetUpIntro';
 import AccountSetUp from './pages/AccountSetUp';
@@ -11,14 +10,11 @@ import DashboardNew from './pages/DashboardNew';
 import WorkManagementDashboard from './pages/WorkManagementDashboard';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import IndexPage from './extra/IndexPage';
-import Clock from './Timer/Clock';
+
 
 function App() {
   return (
     <div className="App">
-      {/* <IndexPage /> */}
-      {/* <Clock /> */}
       <BrowserRouter>
         <Routes>
           <Route exact path='/' element={<SignIn />} />
