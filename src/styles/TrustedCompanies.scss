@@ -1,0 +1,97 @@
+.TrustedCompanies{
+    position: relative;
+background: url("../assets/Background (1).png")   no-repeat;
+background-size: cover;
+color:white;background-color:#2E3C47
+// background: linear-gradient(94.18deg,  4.19%, #E0B6A0 79.05%);
+;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;padding: 0;margin: 0;box-sizing: border-box;
+height: 15rem;
+width: 100%;
+p{
+    font-size: 1.5rem;
+}
+overflow: hidden;
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        // backdrop-filter: blur(2rem);
+background-color: rgba(0, 0, 0, 0.171);
+border-radius: 1rem;
+font-size: 1.5rem;
+padding: .5rem 1rem;
+    }
+    img{
+        width: 9rem;
+        height: 9rem;
+    }
+}
+ }
+ .TrustedCompanies::before{
+    position: absolute;
+    height: inherit;
+       background: url("../assets/Background (2).png")   no-repeat;
+width: inherit;
+content: '';
+z-index: -1;
+ }
+ @media (max-width:1078px) {
+    .TrustedCompanies{
+      p{
+                font-size: 1rem;
+            }
+               .content{
+            flex-wrap: wrap;
+
+           
+            p{
+                padding: .5rem .7rem;
+                font-size: 1.2rem;
+            }  }
+        }
+    }
+ @media (max-width:989px) {
+    .TrustedCompanies{
+      p{
+                font-size: 1rem;
+            }
+               .content{
+            flex-wrap: wrap;
+
+           
+            p{
+                padding: .5rem .7rem;
+                font-size: 1rem;
+            }   
+            img{
+                height: 7rem;
+                width: 7rem;
+            }
+        }   
+    }
+ }
+ @media (max-width:730px) {
+    .TrustedCompanies{
+      p{
+                font-size: 1rem;
+            }
+               .content{
+            flex-wrap: wrap;
+
+           
+            p{
+                padding: .5rem .7rem;
+                font-size: 1rem;
+            }   
+            img{
+                height: 5rem;
+                width: 5rem;
+            }
+        }   
+    }
+ }
