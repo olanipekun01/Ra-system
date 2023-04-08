@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import AuthHeader from '../layout/AuthHeader';
 import '../styles/AccountSetUp.scss';
 
-import logo from '../assets/Vector.svg';
+import logo from '../assets/Vector-i.svg';
 import hero_img from '../assets/undraw_team_page_re_cffb 1.svg';
 
 class AccountSetUp extends Component {
@@ -10,7 +10,7 @@ class AccountSetUp extends Component {
     return (
       <React.Fragment>
         <AuthHeader />
-            <main>
+            <main className='account_set_up'>
                 <div className="left_content">
                     <img src={hero_img} alt="hero_illustration" />
                 </div>

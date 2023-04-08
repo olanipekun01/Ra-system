@@ -87,7 +87,7 @@ class SignUpOTPPage extends Component {
     return (
       <React.Fragment>
         <AuthHeader />
-        <main>
+        <main className='sign_up_otp_page'>
             <section>
                     <div className="header_wrapper">
                         <img src={logo} className="header_logo" alt="logo" />
@@ -121,7 +121,7 @@ class SignUpOTPPage extends Component {
 
                         <span>Code will expire in 5 mins</span>
                     </div>
-                    <p>OTP Entered - {this.state.otp.join("")}</p>
+                    {/* <p>OTP Entered - {this.state.otp.join("")}</p> */}
                     <button>Next</button>
 
                     <span className='other_links'>Resend code</span>

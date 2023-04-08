@@ -24,29 +24,20 @@ export default class ProfileSideDashboard extends Component {
                 </div>
 
                 <div className="nav_bar">
-                    <div className="nav_wrapper">
+                    {/* <div className="nav_wrapper">
                         <img src={dashboardIcon} className="nav_icon" alt="nav logo" />
                         <span>Dashboard</span>
-                    </div>
+                    </div> */}
 
-                    <div className="nav_wrapper">
+                    <div className="nav_wrapper active">
                         <img src={workManagementIcon} className="nav_icon" alt="nav logo" />
                         <span>Work management</span>
                     </div>
 
-                    <div className="nav_wrapper">
-                        <img src={scheduleIcon} className="nav_icon" alt="nav logo" />
-                        <span>Schedule</span>
-                    </div>
 
                     <div className="nav_wrapper">
                         <img src={requestIcon} className="nav_icon" alt="nav logo" />
                         <span>Requests</span>
-                    </div>
-
-                    <div className="nav_wrapper">
-                        <img src={searchIcon} className="nav_icon" alt="nav logo" />
-                        <span>Search</span>
                     </div>
 
                     <div className="nav_wrapper">
@@ -56,7 +47,7 @@ export default class ProfileSideDashboard extends Component {
 
                     <div className="nav_wrapper">
                         <img src={humanIcon} className="nav_icon" alt="nav logo" />
-                        <span>Invite Members</span>
+                        <span>Settings</span>
                     </div>
 
                     

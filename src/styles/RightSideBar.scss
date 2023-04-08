@@ -1,16 +1,17 @@
 .right_sidebar {
     width: 20%;
-    padding: 20px 20px 0 0px;
+    padding: 37px 20px 0 0px;
     background-color: #ffffff;
 
     .profile_header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-left: 10px;
 
         .profile_detail_wrapper {
             width: 180px;
-            height: 53px;
+            height: 33px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -39,11 +40,12 @@
     }
 
     .complete_profile_section {
-        margin-top: 45px;
+        margin-top: 25px;
+
         .complete_profile {
             h4 {
                 width: 283px;
-                padding: 12px 0;
+                padding: 9px 0;
                 text-align: center;
                 background-color: #9CD3D3;
                 border-radius: 10px 10px 0 0;
@@ -53,7 +55,8 @@
 
             .progress_bar_wrapper {
                 .bar_div {
-                    margin-bottom: 20px;
+                    margin-bottom: 15px;
+
                     p {
                         font-size: 12px;
                         font-weight: 400;
@@ -79,7 +82,8 @@
             background-color: #F5F5F7;
             padding: 20px;
             border-radius: 15px;
-            margin-top: 40px;
+            margin-top: 45px;
+
             h3 {
                 font-size: 24px;
                 font-weight: 400;
@@ -94,9 +98,9 @@
                 background-color: #FFFFFF;
                 margin-bottom: 20px;
                 border-radius: 15px;
-                
+
                 padding-left: 10px;
-                
+
                 padding-bottom: 10px;
 
                 img {
@@ -109,7 +113,7 @@
                     text-align: left;
                     align-items: center;
                     width: 187px;
-                    
+
                     h6 {
                         margin-top: 10px;
                         font-size: 17px;
@@ -128,8 +132,10 @@
 
     .feed_section {
         margin-top: 45px;
+
         .header_wrapper {
             padding-left: 30px;
+
             span {
                 color: #15182E;
                 padding: 10px 20px;
@@ -137,6 +143,7 @@
                 font-weight: 600;
                 text-align: center;
             }
+
             span.active {
                 color: #082567;
                 border-bottom: 1px solid #082567;
@@ -155,23 +162,27 @@
                 flex-direction: row;
                 width: 223px;
                 margin-bottom: 10px;
+
                 figure {
                     width: 42px;
                     padding: 0;
                     margin: 0;
+
                     img {
                         border-radius: 10px;
                         width: 42px;
                         height: 42px;
-                    }         
+                    }
                 }
 
                 .detail {
                     width: 165px;
+
                     .detail_header {
                         margin-bottom: -12px;
                         display: flex;
                         justify-content: space-between;
+
                         .username {
                             font-size: 14px;
                             font-weight: 500;
@@ -193,7 +204,210 @@
                     }
                 }
             }
-            
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .right_sidebar {
+        width: 20%;
+        padding: 50px 20px 0 0px;
+        background-color: #ffffff;
+
+        .profile_header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 10px;
+
+            .profile_detail_wrapper {
+                width: 180px;
+                height: 53px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: 0.5px solid #E8EFF7;
+                padding: 4px 5px;
+                border-radius: 12px;
+
+                .profileImage {
+                    width: 34px;
+                    height: 34px;
+                    border-radius: 12px;
+                }
+
+                p {
+                    width: 85px;
+                    font-size: 10px;
+                    font-weight: 500;
+                    color: #373B5C;
+                    line-height: 20px;
+
+                    span {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+
+        .complete_profile_section {
+            margin-top: 25px;
+            .complete_profile {
+                h4 {
+                    width: 283px;
+                    padding: 12px 0;
+                    text-align: center;
+                    background-color: #9CD3D3;
+                    border-radius: 10px 10px 0 0;
+                    font-size: 17px;
+                    font-weight: 400;
+                }
+
+                .progress_bar_wrapper {
+                    .bar_div {
+                        margin-bottom: 20px;
+                        p {
+                            font-size: 12px;
+                            font-weight: 400;
+                        }
+
+
+                        .bar {
+                            background-color: #6750A4;
+                            width: 283px;
+                            height: 3px;
+                        }
+                    }
+
+
+                }
+
+
+            }
+
+            .get_inspired_wrapper {
+                width: 243px;
+                height: 217px;
+                background-color: #F5F5F7;
+                padding: 20px;
+                border-radius: 15px;
+                margin-top: 50px;
+                h3 {
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: #373B5C;
+                    text-align: center;
+                }
+
+                .inspired_card_warpper {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color: #FFFFFF;
+                    margin-bottom: 20px;
+                    border-radius: 15px;
+                    
+                    padding-left: 10px;
+                    
+                    padding-bottom: 10px;
+
+                    img {
+                        width: 54px;
+                        height: 40px;
+                    }
+
+                    .inner_div {
+                        display: block;
+                        text-align: left;
+                        align-items: center;
+                        width: 187px;
+                        
+                        h6 {
+                            margin-top: 10px;
+                            font-size: 17px;
+                            font-weight: 400;
+                            margin-bottom: 2px;
+                        }
+
+                        span {
+                            font-size: 12px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+
+        .feed_section {
+            margin-top: 55px;
+            .header_wrapper {
+                padding-left: 30px;
+                span {
+                    color: #15182E;
+                    padding: 10px 20px;
+                    font-size: 11px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+                span.active {
+                    color: #082567;
+                    border-bottom: 1px solid #082567;
+                }
+            }
+
+            .feed_wrapper {
+                width: 283px;
+                padding-top: 60px;
+                padding-left: 20px;
+                overflow-y: scroll;
+
+                .feed_card {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    width: 223px;
+                    margin-bottom: 10px;
+                    figure {
+                        width: 42px;
+                        padding: 0;
+                        margin: 0;
+                        img {
+                            border-radius: 10px;
+                            width: 42px;
+                            height: 42px;
+                        }         
+                    }
+
+                    .detail {
+                        width: 165px;
+                        .detail_header {
+                            margin-bottom: -12px;
+                            display: flex;
+                            justify-content: space-between;
+                            .username {
+                                font-size: 14px;
+                                font-weight: 500;
+                                color: #344054;
+                            }
+
+                            .time {
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: #667085;
+                            }
+                        }
+
+                        .detail_body {
+
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #667085;
+                        }
+                    }
+                }
+                
+            }
         }
     }
 }
