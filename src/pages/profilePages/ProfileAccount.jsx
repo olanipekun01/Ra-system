@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import ProfileSideDashboard from '../components/ProfileSideDashboard';
-import ProfileNavSideBar from '../components/ProfileNavSideBar';
+import ProfileSideDashboard from '../../components/ProfileSideDashboard';
+import ProfileNavSideBar from '../../components/ProfileNavSideBar';
 
-import "../styles/Profile.scss";
+import "../../styles/ProfileAccount.scss";
 
 
-import profileImage from '../assets/profileImage.svg';
-import cameraIcon from '../assets/Camera.svg';
-import ThreeDotIcon from '../assets/threedots.svg';
+import profileImage from '../../assets/profileImage.svg';
+import cameraIcon from '../../assets/Camera.svg';
+import ThreeDotIcon from '../../assets/threedots.svg';
 
 class Profile extends Component {
   render() {

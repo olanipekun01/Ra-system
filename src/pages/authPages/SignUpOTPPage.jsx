@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import AuthHeader from '../layout/AuthHeader';
-import '../styles/SignUpOTPPage.scss';
+import AuthHeader from '../../layout/AuthHeader';
+import '../../styles/SignUpOTPPage.scss';
 
-import logo from '../assets/Vector-i.svg';
+import logo from '../../assets/Vector-i.svg';
 
 // const inputs = document.querySelectorAll(".otp_box input");
 

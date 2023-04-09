@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import AuthHeader from '../layout/AuthHeader';
-import '../styles/AccountSetUp.scss';
+import AuthHeader from '../../layout/AuthHeader';
+import '../../styles/AccountSetUp.scss';
 
-import logo from '../assets/Vector-i.svg';
-import hero_img from '../assets/undraw_team_page_re_cffb 1.svg';
+import logo from '../../assets/Vector-i.svg';
+import hero_img from '../../assets/undraw_team_page_re_cffb 1.svg';
 
 class AccountSetUp extends Component {
   render() {

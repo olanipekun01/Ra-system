@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import AuthHeader from '../layout/AuthHeader';
-import '../styles/SignUp.scss';
+import AuthHeader from '../../layout/AuthHeader';
+import '../../styles/SignUp.scss';
 
-import logo from '../assets/Vector-i.svg';
-import google from '../assets/google-svgrepo-com 1.svg';
+import logo from '../../assets/Vector-i.svg';
+import google from '../../assets/google-svgrepo-com 1.svg';
 
 class SignUp extends Component {
   render() {

@@ -1,11 +1,13 @@
-main.profile_administration_invite_members {
+main.profile_billing_payment_method {
+    // padding-left: 20px;
     background-color: #E8E9F1;
-    display: flex;  
+    display: flex;
 
     .hero {
         width: 90%;
+        // height: 900px;
 
-         .profile_detail {
+        .profile_detail {
             background: url("../assets/Profile_adminstration_background.svg") center no-repeat;
             height: 160px;
             padding: 40px;
@@ -17,35 +19,36 @@ main.profile_administration_invite_members {
                 display: flex;
                 justify-content: space-between;
                 margin: auto;
+
                 figure {
                     margin: auto;
                     margin-top: 120px;
                     padding-left: 240px;
                     width: 210px;
                     position: relative;
-    
+
                     .profile_image {
                         width: 140px;
                         height: 140px;
                         border-radius: 50%;
                         border: 4px solid #fff;
                     }
-    
+
                     .profileImageCameraIcon {
                         position: absolute;
                         bottom: 20px;
                         right: 0px;
                         padding: 10px;
                         border-radius: 100%;
-                        background:  rgba(255, 255, 255, 0.8);
-    
+                        background: rgba(255, 255, 255, 0.8);
+
                     }
                 }
-    
+
                 .hero_name_detail {
                     margin-top: 210px;
                     margin-right: 50px;
-    
+
                     h2 {
                         color: #1E2875;
                         padding: 5px 5px;
@@ -57,10 +60,11 @@ main.profile_administration_invite_members {
                         margin-top: 5px;
                         width: 150px;
                     }
-    
+
                     span {
                         color: #00000080;
-                        background: #FFBB0D;;
+                        background: #FFBB0D;
+                        ;
                         padding: 5px 2px;
                         border-radius: 6px;
                         font-size: 15px;
@@ -84,6 +88,9 @@ main.profile_administration_invite_members {
             justify-content: space-between;
             padding: 80px 20px;
 
+
+
+
             .profile_edit_field {
                 width: 672px;
                 background-color: #ffffff;
@@ -99,101 +106,75 @@ main.profile_administration_invite_members {
                         font-size: 16px;
                         opacity: 0.3;
                         padding-bottom: 7px;
-                        padding-right: 70px;
+                        padding-right: 120px;
                         border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-                    } 
+                    }
 
                     span.active {
                         opacity: 5;
                         border-bottom: 2px solid #1E2875;
+                       
                     }
                 }
 
-                .add_member_button {
-                    width: 100%;
+                .card_detail_header {
+                    width: 460px;
                     display: flex;
-                    justify-content: flex-end;
-                    button {
-                        color: #1E2875;
-                        background-color: #ffffff;
-                        border: 1px solid #1E2875;
-                        border-radius: 7px;
-                        padding: 10px 10px;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    p {
+                        color: #373B5C;
+                        font-size: 22px;
+                        font-weight: 500;
+                    }
 
+                    span {
+                        color: #F90C00;
+                        font-size: 16px;
+                        font-weight: 400;
                     }
                 }
 
-                table {
-                    border-collapse: collapse;
-                    margin: 15px 0;
-                    font-size: 14px;
-                    font-weight: 400;
-                    color: #768389;
-                    min-width: 100%;
-                    background-color: #ffff;
-                    // box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-                    thead {
-                    
-                        background: #ffffff;
-                
-                        tr {
-                            text-align: left;
-                
-                
-                
-                            th {
-                                padding: 12px 15px;
-                                font-size: 18px;
-                
-                                // img {
-                                //     width: 12px;
-                                //     margin-left: 6px;
-                                //     margin-bottom: -1px;
-                                // }
-                            }
+                .card_detail_wrapper {
+                    .card_wrapper {
+                        background: rgba(244, 244, 248, 0.5);
+                        border-radius: 8px;
+                        width: 400px;
+                        // height: 60px;
+                        padding: 15px 30px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        
+
+                        span {
+                            color: #15182E;
+                            font-size: 20px;
+                            font-weight: 500;
                         }
+
+                        input {
+                            background: #1E2875;
+                            border: 1px solid #1E2875;
+                        }
+
+                        
                     }
 
-                    tbody {
-                        background-color: #ffffff;
-                        tr {
-
-                            td {
-                                padding: 12px 15px;
-                                font-size: 15px;
-                                font-weight: 400;
-                                color: #15182E;
-                                
-                            }
-                            td.invitee_profile {
-                                display: flex;
-                                flex-direction: row;
-                                align-items: center;
-                                img {
-                                    border-radius: 50%;
-                                    margin-right: 12px;
-                                }
-
-                                p {
-                                    color: #15182E;
-                                }
-
-                                span {
-                                    color: #768389;
-                                }
-                            }
-
-                            td.status_active {
-                                color: #0E8B51;
-                            }
-
-                            td.status_offline {
-                                color: #DF0B00;
-                            }
+                    .add_card_button {
+                        button {
+                            padding: 5px 10px;
+                            border-radius: 5px;
+                            border: 1px solid #1E2875;
+                            color: #1E2875;
+                            font-size: 18px;
+                            font-weight: 400;
+                            background: #fff;
+                            margin-top: 20px;
                         }
                     }
                 }
-
 
                 .button_container {
                     button {
@@ -216,8 +197,6 @@ main.profile_administration_invite_members {
                     }
                 }
             }
-
-
         }
     }
 }

@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
 
-import ProfileSideDashboard from '../components/ProfileSideDashboard.jsx';
-import RightSideBar from '../components/RightSideBar.jsx';
+import ProfileSideDashboard from '../../components/ProfileSideDashboard.jsx';
+import RightSideBar from '../../components/RightSideBar.jsx';
 
-import "../styles/WorkManagementDashboard.scss";
+import "../../styles/WorkManagementDashboard.scss";
 
-import downArrowIcon from "../assets/downArrowIcon.svg";
-import leftArrowIcon from "../assets/leftArrowIcon.svg";
-import rightArrowIcon from "../assets/rightArrowIcon.svg";
-import filterIcon from "../assets/filterIcon.svg";
-import arrowIcon from '../assets/arrowIcon.svg';
-import removeButton from '../assets/removeButton.svg';
-import redEclipse from '../assets/redEclipse.svg';
-import yellowEclipse from '../assets/yellowEclipse.svg';
-import blackEclipse from '../assets/blackEclipse.svg';
+import downArrowIcon from "../../assets/downArrowIcon.svg";
+import leftArrowIcon from "../../assets/leftArrowIcon.svg";
+import rightArrowIcon from "../../assets/rightArrowIcon.svg";
+import filterIcon from "../../assets/filterIcon.svg";
+import arrowIcon from '../../assets/arrowIcon.svg';
+import removeButton from '../../assets/removeButton.svg';
+import redEclipse from '../../assets/redEclipse.svg';
+import yellowEclipse from '../../assets/yellowEclipse.svg';
+import blackEclipse from '../../assets/blackEclipse.svg';
 
 
 export default class WorkManagementDashboard extends Component {

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import withRouter from '../utils/withRouter';
+import withRouter from '../../utils/withRouter';
 
-import AuthHeader from '../layout/AuthHeader';
+import AuthHeader from '../../layout/AuthHeader';
 
-import '../styles/AccountSetUpIntro.scss';
+import '../../styles/AccountSetUpIntro.scss';
 
 
-import firstIntroImage from '../assets/firstIntroImage.svg';
-import secondIntroImage from '../assets/secondIntroImage.svg';
-import thirdIntroImage from '../assets/thirdIntroImage.svg';
+import firstIntroImage from '../../assets/firstIntroImage.svg';
+import secondIntroImage from '../../assets/secondIntroImage.svg';
+import thirdIntroImage from '../../assets/thirdIntroImage.svg';
 
 const store = ["first one", "second one", "third one"];
 

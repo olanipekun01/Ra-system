@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 
-import ProfileNavSideBar from '../components/ProfileNavSideBar';
-import ProfileSideDashboard from '../components/ProfileSideDashboard';
+import ProfileNavSideBar from '../../components/ProfileNavSideBar';
+import ProfileSideDashboard from '../../components/ProfileSideDashboard';
 
-import "../styles/ProfileAdministrationInviteMembers.scss";
+import "../../styles/ProfileAdministrationInviteMembers.scss";
 
-import profileImage from '../assets/profileImage.svg';
-import cameraIcon from '../assets/Camera.svg';
-import ThreeDotIcon from '../assets/threedots.svg';
-import WarningIcon from '../assets/warningIcon.svg';
-import AvatarEclipse1 from '../assets/image9.png';
-import deleteIcon from '../assets/deleteIcon.svg';
+import profileImage from '../../assets/profileImage.svg';
+import cameraIcon from '../../assets/Camera.svg';
+import ThreeDotIcon from '../../assets/threedots.svg';
+import WarningIcon from '../../assets/warningIcon.svg';
+import AvatarEclipse1 from '../../assets/image9.png';
+import deleteIcon from '../../assets/deleteIcon.svg';
 
 
 export default class ProfileAdministrationInviteMembers extends Component {

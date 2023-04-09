@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import AuthHeader from '../layout/AuthHeader';
-import '../styles/SignIn.scss';
+import AuthHeader from '../../layout/AuthHeader';
+import '../../styles/SignIn.scss';
 
 
-import logo from '../assets/Vector-i.svg';
-import hero_img from '../assets/pana.png';
-import google from '../assets/google-svgrepo-com 1.svg';
+import logo from '../../assets/Vector-i.svg';
+import hero_img from '../../assets/pana.png';
+import google from '../../assets/google-svgrepo-com 1.svg';
 
 class SignIn extends Component {
   render() {
