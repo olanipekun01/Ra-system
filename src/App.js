@@ -21,6 +21,7 @@ import WorkManagementDashboard from './pages/dashboardPage/WorkManagementDashboa
 
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PasswordReset from './pages/authPages/PasswordReset';
 
 
 
@@ -29,6 +30,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          <Route exact path='/password-reset' element={<PasswordReset />} />
           <Route exact path='/signin' element={<SignIn />} />
           <Route exact path='/signup-otp' element={<SignUpOTPPage />} />
           <Route exact path='/account-setup-intro' element={<AccountSetUpIntro />} />
